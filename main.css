@@ -12,7 +12,13 @@ h1 {
 .centre { 
         text-align: center;
         padding-left: 64px; padding-right: 64px; 
-        }
+}
+
+.row {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 .box {
     width: 50px;
